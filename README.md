@@ -23,10 +23,10 @@ This command builds a Docker image named rust_multistage_starwars_api_wrapper us
 ### Running the Container
 
 ```sh
-docker run -p 5004:5004 rust_multistage_starwars_api_wrapper
+docker run -p 5002:5002 rust_multistage_starwars_api_wrapper
 ```
 
-This command starts a container based on the rust_multistage_starwars_api_wrapper image. It maps port 5004 of the container to port 5004 on the host, allowing you to access the Flask application by navigating to http://localhost:5004 in your web browser.
+This command starts a container based on the rust_multistage_starwars_api_wrapper image. It maps port 5002 of the container to port 5002 on the host, allowing you to access the Flask application by navigating to http://localhost:5002 in your web browser.
 
 ### API Endpoints
 
@@ -41,7 +41,7 @@ The application provides the following endpoints:
 - You can use the 'search' query parameter to filter results based on the name of the starship or character.
 
 ```sh
-http://localhost:5004/characters?search=luke
+http://localhost:5002/characters?search=luke
 ```
 
 For detailed usage, refer to the API documentation section (if applicable).
