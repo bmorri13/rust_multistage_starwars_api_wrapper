@@ -41,7 +41,7 @@ The application provides the following endpoints:
 - You can use the 'search' query parameter to filter results based on the name of the starship or character.
 
 ```sh
-http://localhost:5004/characters?luke
+http://localhost:5004/characters?search=luke
 ```
 
 For detailed usage, refer to the API documentation section (if applicable).
