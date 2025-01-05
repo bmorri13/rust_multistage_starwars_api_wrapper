@@ -1,0 +1,11 @@
+[package]
+name = "rust_multistage_starwars_api_wrapper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde_json = "1.0"
+

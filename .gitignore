@@ -1,0 +1,68 @@
+# Compiled binary
+/target/
+
+# If you're using a virtual environment (like .venv)
+/.venv/
+
+# Build artifacts
+**/*.rs.bk
+*.o
+*.so
+*.dylib
+*.dll
+*.rlib
+
+# Dependencies
+Cargo.lock
+.cargo/
+
+# Output of `cargo test`
+**/test-results/
+
+# Generated files by Cargo
+/.idea/
+/.vscode/
+*.rs.bk
+
+# Ignored files for crates
+*.crate
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Other IDEs and editors
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+
+# Rust documentation
+/target/doc/
+
+# Custom user configuration for cargo
+.cargo/config.toml
+
+# If using CLion and IntelliJ Rust plugin
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/CMakeFiles/
+cmake-build-*/Makefile
+cmake-build-*/cmake_install.cmake
+cmake-build-*/CTestTestfile.cmake
+
+# Rust-specific files
+*.rs.bk
+*.rs~
+*.rs.bk~
