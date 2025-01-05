@@ -28,8 +28,8 @@ async fn main() {
         }))
         .fallback(get(catch_all_handler));
 
-    // Start the server on port 5004
-    let addr = SocketAddr::from(([0, 0, 0, 0], 5004));
+    // Start the server on port 5002
+    let addr = SocketAddr::from(([0, 0, 0, 0], 5002));
     println!("Server running at http://{}", addr);
     axum::Server::bind(&addr)
         .serve(app.into_make_service())
